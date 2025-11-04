@@ -1,0 +1,1364 @@
+{
+  "criteria": [
+    {
+      "id": "C1",
+      "name": "Giá bán",
+      "type": "benefit"
+    },
+    {
+      "id": "C2",
+      "name": "Độ bền",
+      "type": "benefit"
+    },
+    {
+      "id": "C3",
+      "name": "Ý nghĩa 20/11",
+      "type": "benefit"
+    },
+    {
+      "id": "C4",
+      "name": "Rủi ro tồn kho",
+      "type": "cost"
+    }
+  ],
+  "weights": {
+    "C1": 0.24,
+    "C2": 0.12,
+    "C3": 0.16,
+    "C4": 0.48
+  },
+  "alternatives":
+   [
+    {
+      "id": "A1",
+      "name": "Happy Bloom",
+      "image": "assets/A1.jpg",
+      "values": {
+        "C1": 3600000,
+        "C2": 12,
+        "C3": 3,
+        "C4": 3
+      }
+    },
+    {
+      "id": "A2",
+      "name": "Tender Rose",
+      "image": "assets/A2.jpg",
+      "values": {
+        "C1": 7992000,
+        "C2": 6,
+        "C3": 5,
+        "C4": 5
+      }
+    },
+    {
+      "id": "A3",
+      "name": "Lan Hồ Điệp",
+      "image": "assets/A3.jpg",
+      "values": {
+        "C1": 3500000,
+        "C2": 45,
+        "C3": 4,
+        "C4": 1
+      }
+    },
+    {
+      "id": "A4",
+      "name": "Orchid Rouge",
+      "image": "assets/A4.jpg",
+      "values": {
+        "C1": 2160000,
+        "C2": 10,
+        "C3": 3,
+        "C4": 4
+      }
+    },
+  {
+    "id": "A5",
+    "name": "Pure Blossom",
+    "image": "assets/A5.jpg",
+    "values": {
+      "C1": 5000000,
+      "C2": 17,
+      "C3": 2,
+      "C4": 3
+    }
+  },
+  {
+    "id": "A6",
+    "name": "Cinderella",
+    "image": "assets/A6.jpg",
+    "values": {
+      "C1": 4000000,
+      "C2": 26,
+      "C3": 4,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A7",
+    "name": "Aurora",
+    "image": "assets/A7.jpg",
+    "values": {
+      "C1": 2800000,
+      "C2": 9,
+      "C3": 3,
+      "C4": 5
+    }
+  },
+  {
+    "id": "A8",
+    "name": "Big Heart",
+    "image": "assets/A8.jpg",
+    "values": {
+      "C1": 5500000,
+      "C2": 42,
+      "C3": 5,
+      "C4": 3
+    }
+  },
+  {
+    "id": "A9",
+    "name": "Bloom Joy",
+    "image": "assets/A9.jpg",
+    "values": {
+      "C1": 2000000,
+      "C2": 29,
+      "C3": 3,
+      "C4": 4
+    }
+  },
+  {
+    "id": "A10",
+    "name": "Blush Secret",
+    "image": "assets/A10.jpg",
+    "values": {
+      "C1": 1300000,
+      "C2": 32,
+      "C3": 5,
+      "C4": 1
+    }
+  },
+  {
+    "id": "A11",
+    "name": "Whimsy Well",
+    "image": "assets/A11.jpg",
+    "values": {
+      "C1": 3200000,
+      "C2": 33,
+      "C3": 5,
+      "C4": 4
+    }
+  },
+  {
+    "id": "A12",
+    "name": "Dream Petal",
+    "image": "assets/A12.jpg",
+    "values": {
+      "C1": 2000000,
+      "C2": 39,
+      "C3": 4,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A13",
+    "name": "Autumn Callings",
+    "image": "assets/A13.jpg",
+    "values": {
+      "C1": 4200000,
+      "C2": 14,
+      "C3": 5,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A14",
+    "name": "Silent Love",
+    "image": "assets/A14.jpg",
+    "values": {
+      "C1": 2300000,
+      "C2": 19,
+      "C3": 5,
+      "C4": 4
+    }
+  },
+  {
+    "id": "A15",
+    "name": "Morning Light",
+    "image": "assets/A15.jpg",
+    "values": {
+      "C1": 1300000,
+      "C2": 17,
+      "C3": 4,
+      "C4": 3
+    }
+  },
+  {
+    "id": "A16",
+    "name": "Snow white",
+    "image": "assets/A16.jpg",
+    "values": {
+      "C1": 3200000,
+      "C2": 20,
+      "C3": 2,
+      "C4": 3
+    }
+  },
+  {
+    "id": "A17",
+    "name": "Rapunzel",
+    "image": "assets/A17.jpg",
+    "values": {
+      "C1": 3000000,
+      "C2": 43,
+      "C3": 5,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A18",
+    "name": "Wildernest",
+    "image": "assets/A18.jpg",
+    "values": {
+      "C1": 5000000,
+      "C2": 21,
+      "C3": 4,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A19",
+    "name": "Amber Haze",
+    "image": "assets/A19.jpg",
+    "values": {
+      "C1": 5000000,
+      "C2": 25,
+      "C3": 3,
+      "C4": 3
+    }
+  },
+  {
+    "id": "A20",
+    "name": "Morning Smile",
+    "image": "assets/A20.jpg",
+    "values": {
+      "C1": 1300000,
+      "C2": 9,
+      "C3": 3,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A21",
+    "name": "Honey Ball",
+    "image": "assets/A21.jpg",
+    "values": {
+      "C1": 4000000,
+      "C2": 30,
+      "C3": 3,
+      "C4": 4
+    }
+  },
+  {
+    "id": "A22",
+    "name": "Ariel",
+    "image": "assets/A22.jpg",
+    "values": {
+      "C1": 4000000,
+      "C2": 33,
+      "C3": 5,
+      "C4": 3
+    }
+  },
+  {
+    "id": "A23",
+    "name": "Fleur Eclipse",
+    "image": "assets/A23.jpg",
+    "values": {
+      "C1": 2800000,
+      "C2": 20,
+      "C3": 4,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A24",
+    "name": "Rosé Heart",
+    "image": "assets/A24.jpg",
+    "values": {
+      "C1": 5500000,
+      "C2": 15,
+      "C3": 3,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A25",
+    "name": "Whisperfield",
+    "image": "assets/A25.jpg",
+    "values": {
+      "C1": 3500000,
+      "C2": 6,
+      "C3": 2,
+      "C4": 5
+    }
+  },
+  {
+    "id": "A26",
+    "name": "Soul Blossom",
+    "image": "assets/A26.jpg",
+    "values": {
+      "C1": 1200000,
+      "C2": 26,
+      "C3": 5,
+      "C4": 1
+    }
+  },
+  {
+    "id": "A27",
+    "name": "Bright Smile",
+    "image": "assets/A27.jpg",
+    "values": {
+      "C1": 2000000,
+      "C2": 16,
+      "C3": 3,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A28",
+    "name": "Velvet Touch",
+    "image": "assets/A28.jpg",
+    "values": {
+      "C1": 3500000,
+      "C2": 30,
+      "C3": 5,
+      "C4": 4
+    }
+  },
+  {
+    "id": "A29",
+    "name": "Belle",
+    "image": "assets/A29.jpg",
+    "values": {
+      "C1": 2500000,
+      "C2": 10,
+      "C3": 4,
+      "C4": 5
+    }
+  },
+  {
+    "id": "A30",
+    "name": "Grace Flower",
+    "image": "assets/A30.jpg",
+    "values": {
+      "C1": 1500000,
+      "C2": 14,
+      "C3": 3,
+      "C4": 1
+    }
+  },
+  {
+    "id": "A31",
+    "name": "Baby Bloom",
+    "image": "assets/A31.jpg",
+    "values": {
+      "C1": 2000000,
+      "C2": 7,
+      "C3": 5,
+      "C4": 5
+    }
+  },
+  {
+    "id": "A32",
+    "name": "Ivory Lantern",
+    "image": "assets/A32.jpg",
+    "values": {
+      "C1": 4500000,
+      "C2": 37,
+      "C3": 3,
+      "C4": 1
+    }
+  },
+  {
+    "id": "A33",
+    "name": "Aurora Kiss",
+    "image": "assets/A33.jpg",
+    "values": {
+      "C1": 3500000,
+      "C2": 38,
+      "C3": 5,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A34",
+    "name": "Fresh Start",
+    "image": "assets/A34.jpg",
+    "values": {
+      "C1": 2000000,
+      "C2": 40,
+      "C3": 5,
+      "C4": 4
+    }
+  },
+  {
+    "id": "A35",
+    "name": "Petalora",
+    "image": "assets/A35.jpg",
+    "values": {
+      "C1": 2500000,
+      "C2": 30,
+      "C3": 4,
+      "C4": 4
+    }
+  },
+  {
+    "id": "A36",
+    "name": "Morning Dew",
+    "image": "assets/A36.jpg",
+    "values": {
+      "C1": 1500000,
+      "C2": 23,
+      "C3": 3,
+      "C4": 4
+    }
+  },
+  {
+    "id": "A37",
+    "name": "Candy Rose",
+    "image": "assets/A37.jpg",
+    "values": {
+      "C1": 1000000,
+      "C2": 11,
+      "C3": 4,
+      "C4": 3
+    }
+  },
+  {
+    "id": "A38",
+    "name": "Timeless Rose",
+    "image": "assets/A38.jpg",
+    "values": {
+      "C1": 1000000,
+      "C2": 24,
+      "C3": 4,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A39",
+    "name": "Warm Hug",
+    "image": "assets/A39.jpg",
+    "values": {
+      "C1": 3000000,
+      "C2": 31,
+      "C3": 4,
+      "C4": 5
+    }
+  },
+  {
+    "id": "A40",
+    "name": "Forever Bloom",
+    "image": "assets/A40.jpg",
+    "values": {
+      "C1": 1500000,
+      "C2": 21,
+      "C3": 2,
+      "C4": 1
+    }
+  },
+  {
+    "id": "A41",
+    "name": "Majestic Bloom",
+    "image": "assets/A41.jpg",
+    "values": {
+      "C1": 5000000,
+      "C2": 24,
+      "C3": 5,
+      "C4": 1
+    }
+  },
+  {
+    "id": "A42",
+    "name": "Azure Bloom",
+    "image": "assets/A42.jpg",
+    "values": {
+      "C1": 5000000,
+      "C2": 36,
+      "C3": 2,
+      "C4": 4
+    }
+  },
+  {
+    "id": "A43",
+    "name": "99 roses",
+    "image": "assets/A43.jpg",
+    "values": {
+      "C1": 14000000,
+      "C2": 25,
+      "C3": 5,
+      "C4": 5
+    }
+  },
+  {
+    "id": "A44",
+    "name": "Sweet Proposal",
+    "image": "assets/A44.jpg",
+    "values": {
+      "C1": 4000000,
+      "C2": 12,
+      "C3": 5,
+      "C4": 4
+    }
+  },
+  {
+    "id": "A45",
+    "name": "Ivory Forest",
+    "image": "assets/A45.jpg",
+    "values": {
+      "C1": 4000000,
+      "C2": 31,
+      "C3": 3,
+      "C4": 3
+    }
+  },
+  {
+    "id": "A46",
+    "name": "Ivory Grace",
+    "image": "assets/A46.jpg",
+    "values": {
+      "C1": 5000000,
+      "C2": 8,
+      "C3": 3,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A47",
+    "name": "Lovely Petals",
+    "image": "assets/A47.jpg",
+    "values": {
+      "C1": 1000000,
+      "C2": 26,
+      "C3": 2,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A48",
+    "name": "Hidden Rose",
+    "image": "assets/A48.jpg",
+    "values": {
+      "C1": 700000,
+      "C2": 33,
+      "C3": 3,
+      "C4": 4
+    }
+  },
+  {
+    "id": "A49",
+    "name": "Moonlit Static",
+    "image": "assets/A49.jpg",
+    "values": {
+      "C1": 2000000,
+      "C2": 32,
+      "C3": 5,
+      "C4": 5
+    }
+  },
+  {
+    "id": "A50",
+    "name": "Rainbow Wilderness",
+    "image": "assets/A50.jpg",
+    "values": {
+      "C1": 1500000,
+      "C2": 37,
+      "C3": 4,
+      "C4": 5
+    }
+  },
+  {
+    "id": "A51",
+    "name": "Ethereal Petals",
+    "image": "assets/A51.jpg",
+    "values": {
+      "C1": 1000000,
+      "C2": 12,
+      "C3": 3,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A52",
+    "name": "Wilted Secrets",
+    "image": "assets/A52.jpg",
+    "values": {
+      "C1": 800000,
+      "C2": 5,
+      "C3": 5,
+      "C4": 3
+    }
+  },
+  {
+    "id": "A53",
+    "name": "Sun-Kissed Pastels",
+    "image": "assets/A53.jpg",
+    "values": {
+      "C1": 1800000,
+      "C2": 34,
+      "C3": 4,
+      "C4": 5
+    }
+  },
+  {
+    "id": "A54",
+    "name": "Forgotten Nectar",
+    "image": "assets/A54.jpg",
+    "values": {
+      "C1": 7000000,
+      "C2": 21,
+      "C3": 2,
+      "C4": 1
+    }
+  },
+  {
+    "id": "A55",
+    "name": "Whispered Chaos",
+    "image": "assets/A55.jpg",
+    "values": {
+      "C1": 1800000,
+      "C2": 9,
+      "C3": 4,
+      "C4": 1
+    }
+  },
+  {
+    "id": "A56",
+    "name": "Gilded Garden",
+    "image": "assets/A56.jpg",
+    "values": {
+      "C1": 4000000,
+      "C2": 24,
+      "C3": 4,
+      "C4": 4
+    }
+  },
+  {
+    "id": "A57",
+    "name": "Lovely Smile",
+    "image": "assets/A57.jpg",
+    "values": {
+      "C1": 500000,
+      "C2": 20,
+      "C3": 5,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A58",
+    "name": "Bloom Spell",
+    "image": "assets/A58.jpg",
+    "values": {
+      "C1": 500000,
+      "C2": 19,
+      "C3": 2,
+      "C4": 3
+    }
+  },
+  {
+    "id": "A59",
+    "name": "Love’s Tapestry",
+    "image": "assets/A59.jpg",
+    "values": {
+      "C1": 3600000,
+      "C2": 11,
+      "C3": 3,
+      "C4": 5
+    }
+  },
+  {
+    "id": "A60",
+    "name": "Blush Mirage",
+    "image": "assets/A60.jpg",
+    "values": {
+      "C1": 2000000,
+      "C2": 18,
+      "C3": 4,
+      "C4": 1
+    }
+  },
+  {
+    "id": "A61",
+    "name": "Twilight Bloom",
+    "image": "assets/A61.jpg",
+    "values": {
+      "C1": 1000000,
+      "C2": 30,
+      "C3": 4,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A62",
+    "name": "Want You",
+    "image": "assets/A62.jpg",
+    "values": {
+      "C1": 500000,
+      "C2": 26,
+      "C3": 4,
+      "C4": 3
+    }
+  },
+  {
+    "id": "A63",
+    "name": "Aurora's Kiss",
+    "image": "assets/A63.jpg",
+    "values": {
+      "C1": 2300000,
+      "C2": 45,
+      "C3": 2,
+      "C4": 5
+    }
+  },
+  {
+    "id": "A64",
+    "name": "Misty Petal",
+    "image": "assets/A64.jpg",
+    "values": {
+      "C1": 500000,
+      "C2": 24,
+      "C3": 4,
+      "C4": 4
+    }
+  },
+  {
+    "id": "A65",
+    "name": "Lush Reverie",
+    "image": "assets/A65.jpg",
+    "values": {
+      "C1": 800000,
+      "C2": 42,
+      "C3": 3,
+      "C4": 4
+    }
+  },
+  {
+    "id": "A66",
+    "name": "Verdant Bloom",
+    "image": "assets/A66.jpg",
+    "values": {
+      "C1": 5000000,
+      "C2": 24,
+      "C3": 4,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A67",
+    "name": "Amour Spectrum",
+    "image": "assets/A67.jpg",
+    "values": {
+      "C1": 3000000,
+      "C2": 11,
+      "C3": 3,
+      "C4": 4
+    }
+  },
+  {
+    "id": "A68",
+    "name": "Hello Florals",
+    "image": "assets/A68.jpg",
+    "values": {
+      "C1": 700000,
+      "C2": 17,
+      "C3": 2,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A69",
+    "name": "Sweet Embrace",
+    "image": "assets/A69.jpg",
+    "values": {
+      "C1": 3500000,
+      "C2": 43,
+      "C3": 5,
+      "C4": 3
+    }
+  },
+  {
+    "id": "A70",
+    "name": "Bloom Alchemy",
+    "image": "assets/A70.jpg",
+    "values": {
+      "C1": 1300000,
+      "C2": 18,
+      "C3": 3,
+      "C4": 3
+    }
+  },
+  {
+    "id": "A71",
+    "name": "Love Kaleidoscope",
+    "image": "assets/A71.jpg",
+    "values": {
+      "C1": 4200000,
+      "C2": 6,
+      "C3": 2,
+      "C4": 5
+    }
+  },
+  {
+    "id": "A72",
+    "name": "Rosette Symphony",
+    "image": "assets/A72.jpg",
+    "values": {
+      "C1": 2000000,
+      "C2": 39,
+      "C3": 4,
+      "C4": 4
+    }
+  },
+  {
+    "id": "A73",
+    "name": "Unique Fleur",
+    "image": "assets/A73.jpg",
+    "values": {
+      "C1": 1000000,
+      "C2": 39,
+      "C3": 5,
+      "C4": 5
+    }
+  },
+  {
+    "id": "A74",
+    "name": "Rosé Rhapsody",
+    "image": "assets/A74.jpg",
+    "values": {
+      "C1": 3000000,
+      "C2": 12,
+      "C3": 5,
+      "C4": 1
+    }
+  },
+  {
+    "id": "A75",
+    "name": "Vivid Affection",
+    "image": "assets/A75.jpg",
+    "values": {
+      "C1": 3500000,
+      "C2": 28,
+      "C3": 2,
+      "C4": 5
+    }
+  },
+  {
+    "id": "A76",
+    "name": "Passionate Symphony",
+    "image": "assets/A76.jpg",
+    "values": {
+      "C1": 3700000,
+      "C2": 44,
+      "C3": 5,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A77",
+    "name": "Amour Mélange",
+    "image": "assets/A77.jpg",
+    "values": {
+      "C1": 1800000,
+      "C2": 24,
+      "C3": 3,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A78",
+    "name": "Spring's Embrace",
+    "image": "assets/A78.jpg",
+    "values": {
+      "C1": 1500000,
+      "C2": 34,
+      "C3": 2,
+      "C4": 1
+    }
+  },
+  {
+    "id": "A79",
+    "name": "Verdant Grace",
+    "image": "assets/A79.jpg",
+    "values": {
+      "C1": 3000000,
+      "C2": 32,
+      "C3": 4,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A80",
+    "name": "Snowfall of Love",
+    "image": "assets/A80.jpg",
+    "values": {
+      "C1": 3000000,
+      "C2": 17,
+      "C3": 4,
+      "C4": 3
+    }
+  },
+  {
+    "id": "A81",
+    "name": "Ethereal Garden",
+    "image": "assets/A81.jpg",
+    "values": {
+      "C1": 6000000,
+      "C2": 39,
+      "C3": 2,
+      "C4": 4
+    }
+  },
+  {
+    "id": "A82",
+    "name": "Petal Reverie",
+    "image": "assets/A82.jpg",
+    "values": {
+      "C1": 2000000,
+      "C2": 35,
+      "C3": 3,
+      "C4": 3
+    }
+  },
+  {
+    "id": "A83",
+    "name": "Petal Mirage",
+    "image": "assets/A83.jpg",
+    "values": {
+      "C1": 2500000,
+      "C2": 17,
+      "C3": 2,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A84",
+    "name": "Floral Fancies",
+    "image": "assets/A84.jpg",
+    "values": {
+      "C1": 2500000,
+      "C2": 20,
+      "C3": 4,
+      "C4": 1
+    }
+  },
+  {
+    "id": "A85",
+    "name": "Lovers' Medley",
+    "image": "assets/A85.jpg",
+    "values": {
+      "C1": 2500000,
+      "C2": 45,
+      "C3": 5,
+      "C4": 3
+    }
+  },
+  {
+    "id": "A86",
+    "name": "Pretty Bee",
+    "image": "assets/A86.jpg",
+    "values": {
+      "C1": 500000,
+      "C2": 38,
+      "C3": 5,
+      "C4": 4
+    }
+  },
+  {
+    "id": "A87",
+    "name": "Serene Charm",
+    "image": "assets/A87.jpg",
+    "values": {
+      "C1": 5800000,
+      "C2": 22,
+      "C3": 5,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A88",
+    "name": "Astral Dreamscape",
+    "image": "assets/A88.jpg",
+    "values": {
+      "C1": 3700000,
+      "C2": 43,
+      "C3": 3,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A89",
+    "name": "Hi Honey",
+    "image": "assets/A89.jpg",
+    "values": {
+      "C1": 500000,
+      "C2": 42,
+      "C3": 3,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A90",
+    "name": "Twilight Ember",
+    "image": "assets/A90.jpg",
+    "values": {
+      "C1": 3500000,
+      "C2": 34,
+      "C3": 4,
+      "C4": 5
+    }
+  },
+  {
+    "id": "A91",
+    "name": "Whimsy in Bloom",
+    "image": "assets/A91.jpg",
+    "values": {
+      "C1": 6000000,
+      "C2": 14,
+      "C3": 3,
+      "C4": 4
+    }
+  },
+  {
+    "id": "A92",
+    "name": "Dreamy Oasis",
+    "image": "assets/A92.jpg",
+    "values": {
+      "C1": 2000000,
+      "C2": 13,
+      "C3": 3,
+      "C4": 1
+    }
+  },
+  {
+    "id": "A93",
+    "name": "Tranquil Waves",
+    "image": "assets/A93.jpg",
+    "values": {
+      "C1": 1200000,
+      "C2": 25,
+      "C3": 4,
+      "C4": 4
+    }
+  },
+  {
+    "id": "A94",
+    "name": "Azure Elegance",
+    "image": "assets/A94.jpg",
+    "values": {
+      "C1": 1000000,
+      "C2": 13,
+      "C3": 2,
+      "C4": 5
+    }
+  },
+  {
+    "id": "A95",
+    "name": "Roseate Glow",
+    "image": "assets/A95.jpg",
+    "values": {
+      "C1": 2300000,
+      "C2": 32,
+      "C3": 2,
+      "C4": 3
+    }
+  },
+  {
+    "id": "A96",
+    "name": "Enchanted Eden",
+    "image": "assets/A96.jpg",
+    "values": {
+      "C1": 1500000,
+      "C2": 19,
+      "C3": 4,
+      "C4": 1
+    }
+  },
+  {
+    "id": "A97",
+    "name": "Phoenix Rising",
+    "image": "assets/A97.jpg",
+    "values": {
+      "C1": 2200000,
+      "C2": 15,
+      "C3": 2,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A98",
+    "name": "Symphony of Scents",
+    "image": "assets/A98.jpg",
+    "values": {
+      "C1": 2000000,
+      "C2": 15,
+      "C3": 3,
+      "C4": 4
+    }
+  },
+  {
+    "id": "A99",
+    "name": "Dancing Flames",
+    "image": "assets/A99.jpg",
+    "values": {
+      "C1": 600000,
+      "C2": 9,
+      "C3": 2,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A100",
+    "name": "Forest's Whisper",
+    "image": "assets/A100.jpg",
+    "values": {
+      "C1": 2000000,
+      "C2": 40,
+      "C3": 3,
+      "C4": 5
+    }
+  },
+  {
+    "id": "A101",
+    "name": "Tropical Fiesta",
+    "image": "assets/A101.jpg",
+    "values": {
+      "C1": 1200000,
+      "C2": 26,
+      "C3": 3,
+      "C4": 4
+    }
+  },
+  {
+    "id": "A102",
+    "name": "White heaven",
+    "image": "assets/A102.jpg",
+    "values": {
+      "C1": 2500000,
+      "C2": 35,
+      "C3": 2,
+      "C4": 5
+    }
+  },
+  {
+    "id": "A103",
+    "name": "More Than Roses",
+    "image": "assets/A103.jpg",
+    "values": {
+      "C1": 4000000,
+      "C2": 28,
+      "C3": 4,
+      "C4": 3
+    }
+  },
+  {
+    "id": "A104",
+    "name": "Blushing Bride",
+    "image": "assets/A104.jpg",
+    "values": {
+      "C1": 1500000,
+      "C2": 20,
+      "C3": 3,
+      "C4": 5
+    }
+  },
+  {
+    "id": "A105",
+    "name": "Love in Heaven",
+    "image": "assets/A105.jpg",
+    "values": {
+      "C1": 4500000,
+      "C2": 21,
+      "C3": 2,
+      "C4": 3
+    }
+  },
+  {
+    "id": "A106",
+    "name": "Harvest Love",
+    "image": "assets/A106.jpg",
+    "values": {
+      "C1": 2300000,
+      "C2": 19,
+      "C3": 2,
+      "C4": 5
+    }
+  },
+  {
+    "id": "A107",
+    "name": "Meadow fresh",
+    "image": "assets/A107.jpg",
+    "values": {
+      "C1": 5000000,
+      "C2": 14,
+      "C3": 3,
+      "C4": 1
+    }
+  },
+  {
+    "id": "A108",
+    "name": "Floral Harmony",
+    "image": "assets/A108.jpg",
+    "values": {
+      "C1": 5800000,
+      "C2": 41,
+      "C3": 3,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A109",
+    "name": "Sweet Pea Dreams",
+    "image": "assets/A109.jpg",
+    "values": {
+      "C1": 2300000,
+      "C2": 32,
+      "C3": 3,
+      "C4": 1
+    }
+  },
+  {
+    "id": "A110",
+    "name": "Sea me",
+    "image": "assets/A110.jpg",
+    "values": {
+      "C1": 5800000,
+      "C2": 38,
+      "C3": 2,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A111",
+    "name": "Urban Jungle",
+    "image": "assets/A111.jpg",
+    "values": {
+      "C1": 5500000,
+      "C2": 15,
+      "C3": 4,
+      "C4": 1
+    }
+  },
+  {
+    "id": "A112",
+    "name": "French Kiss",
+    "image": "assets/A112.jpg",
+    "values": {
+      "C1": 6000000,
+      "C2": 29,
+      "C3": 4,
+      "C4": 5
+    }
+  },
+  {
+    "id": "A113",
+    "name": "Only you",
+    "image": "assets/A113.jpg",
+    "values": {
+      "C1": 3500000,
+      "C2": 32,
+      "C3": 5,
+      "C4": 5
+    }
+  },
+  {
+    "id": "A114",
+    "name": "Winter Wonderland",
+    "image": "assets/A114.jpg",
+    "values": {
+      "C1": 3000000,
+      "C2": 12,
+      "C3": 3,
+      "C4": 4
+    }
+  },
+  {
+    "id": "A115",
+    "name": "Moonlight Sonata",
+    "image": "assets/A115.jpg",
+    "values": {
+      "C1": 1000000,
+      "C2": 14,
+      "C3": 2,
+      "C4": 2
+    }
+  },
+  {
+    "id": "A116",
+    "name": "Up In The Attic",
+    "image": "assets/A116.jpg",
+    "values": {
+      "C1": 3000000,
+      "C2": 35,
+      "C3": 5,
+      "C4": 3
+    }
+  },
+  {
+    "id": "A117",
+    "name": "Warmth",
+    "image": "assets/A117.jpg",
+    "values": {
+      "C1": 1500000,
+      "C2": 29,
+      "C3": 5,
+      "C4": 4
+    }
+  },
+  {
+    "id": "A118",
+    "name": "Pink Memory",
+    "image": "assets/A118.jpg",
+    "values": {
+      "C1": 4000000,
+      "C2": 14,
+      "C3": 3,
+      "C4": 1
+    }
+  },
+  {
+    "id": "A119",
+    "name": "Sunshine love",
+    "image": "assets/A119.jpg",
+    "values": {
+      "C1": 2000000,
+      "C2": 16,
+      "C3": 5,
+      "C4": 4
+    }
+  },
+  {
+    "id": "A120",
+    "name": "Velvet Whisper",
+    "image": "assets/A120.jpg",
+    "values": {
+      "C1": 3500000,
+      "C2": 26,
+      "C3": 3,
+      "C4": 3
+    }
+  },
+  {
+    "id": "A121",
+    "name": "Pink Paradise",
+    "image": "assets/A121.jpg",
+    "values": {
+      "C1": 2000000,
+      "C2": 12,
+      "C3": 2,
+      "C4": 5
+    }
+  }
+]
+}
